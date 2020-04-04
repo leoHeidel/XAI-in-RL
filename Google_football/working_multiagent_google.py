@@ -139,7 +139,7 @@ if __name__ == '__main__':
             'sample_batch_size': 16,
             'sgd_minibatch_size': 16,
             'num_sgd_iter': 10,
-            'num_workers': 3,
+            'num_workers': 1,
             'num_envs_per_worker': 1,
             'num_cpus_per_worker': 1,
             'batch_mode': 'truncate_episodes',
